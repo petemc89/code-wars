@@ -1,6 +1,6 @@
 https://www.codewars.com/kata/write-number-in-expanded-form
 
-kyu: 7
+kyu: 6
 
 Write Number in Expanded Form
 
