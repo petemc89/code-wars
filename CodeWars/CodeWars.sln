@@ -13,13 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WriteNumberInExpandedForm.T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestLibrary", "TestLibrary", "{FC55B1DB-139D-420D-B6FF-18ADB0B8FABD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourOrderPlease", "YourOrderPlease\YourOrderPlease.csproj", "{632E2E34-76AE-4D89-A24D-FCCB8639F67D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YourOrderPlease", "YourOrderPlease\YourOrderPlease.csproj", "{632E2E34-76AE-4D89-A24D-FCCB8639F67D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourOrderPlease.Tests", "YourOrderPlease.Tests\YourOrderPlease.Tests.csproj", "{789CC030-2018-4B41-A9B7-65F2962C1AAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YourOrderPlease.Tests", "YourOrderPlease.Tests\YourOrderPlease.Tests.csproj", "{789CC030-2018-4B41-A9B7-65F2962C1AAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiophantineEquation", "DiophantineEquation\DiophantineEquation.csproj", "{A2DEA1D2-CB19-4FF1-8883-63A62EE10615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiophantineEquation", "DiophantineEquation\DiophantineEquation.csproj", "{A2DEA1D2-CB19-4FF1-8883-63A62EE10615}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiophantineEquation.Tests", "DiophantineEquation.Tests\DiophantineEquation.Tests.csproj", "{D26FE241-793C-486B-91D2-546357D2A561}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiophantineEquation.Tests", "DiophantineEquation.Tests\DiophantineEquation.Tests.csproj", "{D26FE241-793C-486B-91D2-546357D2A561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTravel", "BestTravel\BestTravel.csproj", "{5BFE97A1-BB24-47E8-B36A-7D7067DC6934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTravel.Tests", "BestTravel.Tests\BestTravel.Tests.csproj", "{A59FFFB5-99E9-4D17-B7E3-4CC2544A1427}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,14 @@ Global
 		{D26FE241-793C-486B-91D2-546357D2A561}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D26FE241-793C-486B-91D2-546357D2A561}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D26FE241-793C-486B-91D2-546357D2A561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFE97A1-BB24-47E8-B36A-7D7067DC6934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFE97A1-BB24-47E8-B36A-7D7067DC6934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFE97A1-BB24-47E8-B36A-7D7067DC6934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFE97A1-BB24-47E8-B36A-7D7067DC6934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59FFFB5-99E9-4D17-B7E3-4CC2544A1427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59FFFB5-99E9-4D17-B7E3-4CC2544A1427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59FFFB5-99E9-4D17-B7E3-4CC2544A1427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59FFFB5-99E9-4D17-B7E3-4CC2544A1427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +78,8 @@ Global
 		{789CC030-2018-4B41-A9B7-65F2962C1AAC} = {FC55B1DB-139D-420D-B6FF-18ADB0B8FABD}
 		{A2DEA1D2-CB19-4FF1-8883-63A62EE10615} = {8CE34464-0827-4BA3-BD1A-26A635D9E480}
 		{D26FE241-793C-486B-91D2-546357D2A561} = {FC55B1DB-139D-420D-B6FF-18ADB0B8FABD}
+		{5BFE97A1-BB24-47E8-B36A-7D7067DC6934} = {8CE34464-0827-4BA3-BD1A-26A635D9E480}
+		{A59FFFB5-99E9-4D17-B7E3-4CC2544A1427} = {FC55B1DB-139D-420D-B6FF-18ADB0B8FABD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D1B2FDF-B171-4C99-8C3F-4DD56C5B7B18}
